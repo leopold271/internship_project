@@ -3,13 +3,34 @@ body{
     background-color: honeydew;
 }
 
+.tableLayout{
+    border-spacing: 40px;
+    border-collapse: separate;
+    display: table;
+}
+
+.tableLayout td{
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.loginFormCell{
+    width: 66%;
+}
+
+.infoCell{
+    width: 33%;
+}
+
+.listCell,
+.tableCell,
+.textAreaCell{
+    width: 100px;
+}
+
 .loginFormContainer{
     border: 2px solid black;
-    width: 380px;
     border-radius:12px;
-    right: 15px;
-    top: 65px;
-    position: fixed;
 }
 
 .loginFormContainer p{
@@ -51,7 +72,6 @@ input[type="submit"] {
 
 .info{
     border: 2px solid black;
-    width: 330px;
     padding: 20px 10px;
 }
 
@@ -99,18 +119,12 @@ div.info>div{
 
 .text {
     border: 1px solid black;
-    width: 900px;
-    margin: 30px  auto;
- 
-   
+    margin: 30px auto;
 }
 
 .text p{
     background-image: url("download.jpg");
-    overflow-y: scroll;
     font-weight: bold;
-    height: 380px;
-    margin: 0;
     font-family: Luminari, fantasy;
     font-weight: normal;
     padding: 10px;
@@ -144,7 +158,7 @@ div.info>div{
     text-decoration: none;
     display: inline-block;
     background-color: rgba(171, 145, 218, 0.137);
-    padding: 12px 20px;
+    padding: 6px 10px;
     color: black;
     text-align: center;
     border: 2px solid rgb(13, 80, 65);
@@ -164,10 +178,7 @@ table, td, th{
 }
 
 .table{
-    width: 250px;
-    height: 150px;
     margin-top: 20px;
-   
 }
 
 th {
@@ -180,11 +191,6 @@ td{
     background-color: rgba(255, 127, 80, 0.26);
     text-align: center;
     padding: 4px;
-}
-
-
-.list{
-    width: 650px;
 }
 
 ul{
